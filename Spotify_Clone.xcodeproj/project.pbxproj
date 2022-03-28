@@ -25,6 +25,9 @@
 		2DEC1A6527F1A20200C9B50D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A6427F1A20200C9B50D /* PlayerViewController.swift */; };
 		2DEC1A6727F1A20B00C9B50D /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A6627F1A20B00C9B50D /* PlaylistViewController.swift */; };
 		2DEC1A6927F1A21E00C9B50D /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A6827F1A21E00C9B50D /* SearchResultsViewController.swift */; };
+		2DEC1A6B27F1A26300C9B50D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A6A27F1A26300C9B50D /* AuthManager.swift */; };
+		2DEC1A6D27F1A27300C9B50D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A6C27F1A27300C9B50D /* APICaller.swift */; };
+		2DEC1A6F27F1A27F00C9B50D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A6E27F1A27F00C9B50D /* HapticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		2DEC1A6427F1A20200C9B50D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		2DEC1A6627F1A20B00C9B50D /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		2DEC1A6827F1A21E00C9B50D /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		2DEC1A6A27F1A26300C9B50D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		2DEC1A6C27F1A27300C9B50D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		2DEC1A6E27F1A27F00C9B50D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,9 @@
 		2DEC1A5027F19CA900C9B50D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				2DEC1A6A27F1A26300C9B50D /* AuthManager.swift */,
+				2DEC1A6C27F1A27300C9B50D /* APICaller.swift */,
+				2DEC1A6E27F1A27F00C9B50D /* HapticsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -341,10 +350,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DEC1A5527F1A17A00C9B50D /* SearcgViewController.swift in Sources */,
+				2DEC1A6B27F1A26300C9B50D /* AuthManager.swift in Sources */,
 				2DEC1A6927F1A21E00C9B50D /* SearchResultsViewController.swift in Sources */,
 				2DEC1A5F27F1A1D200C9B50D /* WelcomeViewController.swift in Sources */,
 				2DEC1A6327F1A1F700C9B50D /* ProfileViewController.swift in Sources */,
 				2DEC1A5327F1A13600C9B50D /* TabBarViewController.swift in Sources */,
+				2DEC1A6F27F1A27F00C9B50D /* HapticsManager.swift in Sources */,
 				2DEC1A2227F19C6600C9B50D /* HomeViewController.swift in Sources */,
 				2DEC1A5C27F1A1BE00C9B50D /* AuthViewController.swift in Sources */,
 				2DEC1A1E27F19C6600C9B50D /* AppDelegate.swift in Sources */,
@@ -352,6 +363,7 @@
 				2DEC1A6727F1A20B00C9B50D /* PlaylistViewController.swift in Sources */,
 				2DEC1A2027F19C6600C9B50D /* SceneDelegate.swift in Sources */,
 				2DEC1A6527F1A20200C9B50D /* PlayerViewController.swift in Sources */,
+				2DEC1A6D27F1A27300C9B50D /* APICaller.swift in Sources */,
 				2DEC1A6127F1A1E500C9B50D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
