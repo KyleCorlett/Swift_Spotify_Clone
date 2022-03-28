@@ -10,7 +10,6 @@
 		2DEC1A1E27F19C6600C9B50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A1D27F19C6600C9B50D /* AppDelegate.swift */; };
 		2DEC1A2027F19C6600C9B50D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A1F27F19C6600C9B50D /* SceneDelegate.swift */; };
 		2DEC1A2227F19C6600C9B50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A2127F19C6600C9B50D /* ViewController.swift */; };
-		2DEC1A2527F19C6600C9B50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC1A2327F19C6600C9B50D /* Main.storyboard */; };
 		2DEC1A2727F19C7000C9B50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC1A2627F19C7000C9B50D /* Assets.xcassets */; };
 		2DEC1A2A27F19C7000C9B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC1A2827F19C7000C9B50D /* LaunchScreen.storyboard */; };
 		2DEC1A3527F19C7100C9B50D /* Spotify_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC1A3427F19C7100C9B50D /* Spotify_CloneTests.swift */; };
@@ -40,7 +39,6 @@
 		2DEC1A1D27F19C6600C9B50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEC1A1F27F19C6600C9B50D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DEC1A2127F19C6600C9B50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DEC1A2427F19C6600C9B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DEC1A2627F19C7000C9B50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DEC1A2927F19C7000C9B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DEC1A2B27F19C7000C9B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,12 +97,11 @@
 		2DEC1A1C27F19C6600C9B50D /* Spotify_Clone */ = {
 			isa = PBXGroup;
 			children = (
-				2DEC1A1D27F19C6600C9B50D /* AppDelegate.swift */,
-				2DEC1A1F27F19C6600C9B50D /* SceneDelegate.swift */,
-				2DEC1A2127F19C6600C9B50D /* ViewController.swift */,
-				2DEC1A2327F19C6600C9B50D /* Main.storyboard */,
-				2DEC1A2627F19C7000C9B50D /* Assets.xcassets */,
-				2DEC1A2827F19C7000C9B50D /* LaunchScreen.storyboard */,
+				2DEC1A5127F19CB600C9B50D /* Resources */,
+				2DEC1A5027F19CA900C9B50D /* Managers */,
+				2DEC1A4F27F19CA200C9B50D /* ViewModels */,
+				2DEC1A4E27F19C9C00C9B50D /* Views */,
+				2DEC1A4D27F19C8600C9B50D /* Controllers */,
 				2DEC1A2B27F19C7000C9B50D /* Info.plist */,
 			);
 			path = Spotify_Clone;
@@ -125,6 +122,46 @@
 				2DEC1A4027F19C7100C9B50D /* Spotify_CloneUITestsLaunchTests.swift */,
 			);
 			path = Spotify_CloneUITests;
+			sourceTree = "<group>";
+		};
+		2DEC1A4D27F19C8600C9B50D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC1A2127F19C6600C9B50D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2DEC1A4E27F19C9C00C9B50D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC1A2827F19C7000C9B50D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DEC1A4F27F19CA200C9B50D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2DEC1A5027F19CA900C9B50D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2DEC1A5127F19CB600C9B50D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC1A1D27F19C6600C9B50D /* AppDelegate.swift */,
+				2DEC1A1F27F19C6600C9B50D /* SceneDelegate.swift */,
+				2DEC1A2627F19C7000C9B50D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +270,6 @@
 			files = (
 				2DEC1A2A27F19C7000C9B50D /* LaunchScreen.storyboard in Resources */,
 				2DEC1A2727F19C7000C9B50D /* Assets.xcassets in Resources */,
-				2DEC1A2527F19C6600C9B50D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2DEC1A2327F19C6600C9B50D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DEC1A2427F19C6600C9B50D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DEC1A2827F19C7000C9B50D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
